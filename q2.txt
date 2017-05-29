@@ -1,0 +1,17 @@
+a=input("enter a positive number to check ugly")
+def check_ugly(a):
+	if a<1:
+		print "invalid input"
+	else:
+		while a%2 == 0:
+			a /= 2
+		while a%3 == 0:
+			a /= 3
+		while a%5 == 0:
+			a/= 5
+		
+		if a==1:
+			print "the number is ugly"
+		else:
+			print "the number is not ugly"
+check_ugly(a)

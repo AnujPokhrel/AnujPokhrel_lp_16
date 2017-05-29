@@ -1,0 +1,21 @@
+from math import sqrt
+import time
+start = time.time()
+def check_prime(c):
+	for i in range(2,(int(sqrt(c))+1)):
+		if c%i == 0:
+			return 0
+			break
+	else:
+		return 1	
+		
+sum=2
+for i in range(3,2000000,2):
+	chk=check_prime(i)
+	if chk == 1:
+		sum+=i
+	
+	
+print sum
+end= time.time() - start
+print "runtime", end

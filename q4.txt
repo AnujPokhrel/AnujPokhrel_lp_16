@@ -1,0 +1,3 @@
+I would prefer the incremental development model. With the product being designed, implemented and tested incrementally. Adding a liitle more each time. This development model would ensure prime satisfaction in the T-shirt manufacturing company as they would be able to look at the product in a regular basis and comment on the developing app as if it fits their requirements. The app would be flexible on the client and the developer side.
+
+I would first get the idea of what the client wants to build, the timeframe they wants the product to be completed in and the funding available. Then I would move on to the design of the product , with the product being implemented and tested in the next phases and the phases would repeat with the consultation of the cient.
